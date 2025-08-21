@@ -11,6 +11,7 @@ import Error from "./ui/Error"
 const router = createBrowserRouter([
   {
     element: <AppLayout />,
+    errorElement: <Error />, 
     
     children: [
         {
